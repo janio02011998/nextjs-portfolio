@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+
 import Html from '../../public/assets/skills/html.png';
 import Css from '../../public/assets/skills/css.png';
 import Javascript from '../../public/assets/skills/javascript.png';
@@ -68,7 +69,7 @@ export default function Skills() {
                 <Image src={ReactImg} alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>React/React-Native</h3>
+                <h3>React-Native</h3>
               </div>
             </div>
           </div>

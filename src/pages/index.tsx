@@ -1,4 +1,7 @@
+import About from '@/components/About';
+import Main from '@/components/Main';
 import NavBar from '@/components/NavBar';
+import Skills from '@/components/Skills';
 import Head from 'next/head';
 
 export default function Home() {
@@ -11,6 +14,9 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <NavBar />
+      <Main />
+      <About />
+      <Skills />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsPersonLinesFill } from 'react-icons/bs';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 
@@ -26,7 +26,7 @@ const NavBar: React.FC = () => {
           height={50}
         />
         <div>
-          <ul className='hidden md:flex'>
+          <ul className='hidden md:flex px-2'>
             <Link href='/'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
             </Link>
@@ -107,7 +107,7 @@ const NavBar: React.FC = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[%80]'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <FaLinkedin />
+                  <FaLinkedinIn />
                 </div>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                   <FaGithub />

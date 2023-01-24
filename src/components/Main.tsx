@@ -3,10 +3,11 @@ import React from 'react';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { BsPersonLinesFill } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
+import Link from 'next/link';
 
 const Main: React.FC = () => {
   return (
-    <div className='w-full h-screen text-center'>
+    <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-600'>
@@ -22,18 +23,32 @@ const Main: React.FC = () => {
             front-end and back-end applications while learning AWS technologies.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <FaLinkedinIn />
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <FaGithub />
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <AiOutlineMail />
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-              <BsPersonLinesFill />
-            </div>
+            <Link
+              href='https://www.linkedin.com/in/janio-carvalho-95966016b/'
+              target='_blank'
+              rel='noreferrer'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <FaLinkedinIn />
+              </div>
+            </Link>
+            <Link
+              href='https://github.com/janio02011998'
+              target='_blank'
+              rel='noreferrer'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <FaGithub />
+              </div>
+            </Link>
+            <Link href='/#contact'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <AiOutlineMail />
+              </div>
+            </Link>
+            <Link href='/resume'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <BsPersonLinesFill />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

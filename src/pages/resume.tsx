@@ -61,8 +61,7 @@ const resume = () => {
         <div className='text-center py-4'>
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Typescript
+            <span className='px-2'></span>Typescript
             <span className='px-2'>|</span>Node.js
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Redux
@@ -71,9 +70,6 @@ const resume = () => {
             <span className='px-2'>|</span>Tailwind
             <span className='px-2'>|</span>SQL
             <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Firebase
-            <span className='px-2'>|</span>RESTAPI
-            <span className='px-2'>|</span>GCP
           </p>
           <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
@@ -234,10 +230,8 @@ const resume = () => {
           <p className='py-1 italic'>Computer Science  (2016 – 2021)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
+              Patterns of development, SQL and NoSQL database, agile methodologies
+              and hard programing challenge with the languages Java, C/C++, Python and Javascript.
             </li>
           </ul>
         </div>

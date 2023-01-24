@@ -11,7 +11,8 @@ const eventPlatform = () => {
   return (
     <>
       <Head>
-        <title>JC - Nossa UESC </title>
+        <title>JC - Event Platform </title>
+        <link rel='icon' href='/fav.png' />
       </Head>
       <div className='w-full'>
         <div className='w-screen h-[30vh] lg:h-[40vh] relative'>

@@ -11,7 +11,8 @@ const moveit = () => {
   return (
     <>
       <Head>
-        <title>JC - Nossa UESC </title>
+        <title>JC - MoveIt </title>
+        <link rel='icon' href='/fav.png' />
       </Head>
       <div className='w-full'>
         <div className='w-screen h-[30vh] lg:h-[40vh] relative'>

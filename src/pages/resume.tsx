@@ -22,15 +22,13 @@ const resume = () => {
             <a
               href='https://www.linkedin.com/in/janio-carvalho-95966016b'
               target='_blank'
-              rel='noreferrer'
-            >
+              rel='noreferrer'>
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
               href='https://github.com/janio02011998'
               target='_blank'
-              rel='noreferrer'
-            >
+              rel='noreferrer'>
               <FaGithub size={20} style={{ marginRight: '1rem' }} />
             </a>
           </div>
@@ -38,8 +36,9 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Proven Leadership <span className='px-1'>|</span> Front-end {' '}
-              <span className='px-1'>|</span> Mobile <span className='px-1'>|</span> Back-end
+              Proven Leadership <span className='px-1'>|</span> Front-end{' '}
+              <span className='px-1'>|</span> Mobile{' '}
+              <span className='px-1'>|</span> Back-end
             </p>
           </div>
           <div className='block sm:hidden'>
@@ -84,137 +83,110 @@ const resume = () => {
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold italic'>
-              Pixter Technologies
-            </span>
+            <span className='font-bold italic'>Pixter Technologies</span>
             <span className='px-2'>|</span>São Paulo, SP
           </p>
-          <p className='py-1 italic'>FullStack Developer(Set 2021 - Jan 2023)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Development template of e-mail.
-            </li>
-            <li>
-              Development webpages with React.
-            </li>
-            <li>
-              Create/update app mobile with React-native (Typescript).
-            </li>
-            <li>
-              Publish Play Store.
-            </li>
-            <li>
-              Create/update new services on back-end with Node.js.
-            </li>
-            <li>
-              Database Firebase and MongoDB.
-            </li>
-            <li>
-              Google Cloud Platform.
-            </li>
-          </ul>
-        </div>
-
-
-        {/* Personal Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-              Ruptiva
-            </span>
-            <span className='px-2'>|</span>Porto Alegra, RS
+          <p className='py-1 italic'>
+            FullStack Developer(Set 2021 - Jan 2023)
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (Marc 2021 - Set 2021)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              - Development applications with React, React-Native and Typescript.
-            </li>
-            <li>
-              - Serveless with Firebase
-            </li>
-            <li>
-              - Documentation and Git.
-            </li>
+            <li>Development template of e-mail.</li>
+            <li>Development webpages with React.</li>
+            <li>Create/update app mobile with React-native (Typescript).</li>
+            <li>Publish Play Store.</li>
+            <li>Create/update new services on back-end with Node.js.</li>
+            <li>Database Firebase and MongoDB.</li>
+            <li>Google Cloud Platform.</li>
           </ul>
         </div>
 
         {/* Personal Experience */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold italic'>
-              Self-Employee
-            </span>
+            <span className='font-bold italic'>Ruptiva</span>
+            <span className='px-2'>|</span>Concórdia, SC
+          </p>
+          <p className='py-1 italic'>
+            Code Commerce - Youtube Channel (Marc 2021 - Set 2021)
+          </p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+              - Development applications with React, React-Native and
+              Typescript.
+            </li>
+            <li>- Serveless with Firebase</li>
+            <li>- Documentation and Git.</li>
+          </ul>
+        </div>
+
+        {/* Personal Experience */}
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>Self-Employee</span>
             <span className='px-2'>|</span>Freelancer, Remote
           </p>
-          <p className='py-1 italic'>FullStack Developer  (Jan 2020 - Mar 2021)</p>
+          <p className='py-1 italic'>
+            FullStack Developer (Jan 2020 - Mar 2021)
+          </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              This project aims to research and build a middleware that is responsible for intermediating sensor requests used by sensors, using concepts already established in the Internet of Things and a dashboard for validating information.
+              This project aims to research and build a middleware that is
+              responsible for intermediating sensor requests used by sensors,
+              using concepts already established in the Internet of Things and a
+              dashboard for validating information.
             </li>
-            <li>
-              Front-end: React, Next.js, React-Native and Typescript.
-            </li>
-            <li>
-              Back-end: Node.js, Express, Typescript.
-            </li>
-            <li>
-              Tools: Figma, Git and Vercel.
-            </li>
+            <li>Front-end: React, Next.js, React-Native and Typescript.</li>
+            <li>Back-end: Node.js, Express, Typescript.</li>
+            <li>Tools: Figma, Git and Vercel.</li>
           </ul>
         </div>
 
         {/* Personal Experience */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold italic'>
-              LIF
-            </span>
-            <span className='px-2'>|</span>Universidade Estadual de Santa Cruz, Ilhéus-BA
+            <span className='font-bold italic'>LIF</span>
+            <span className='px-2'>|</span>Universidade Estadual de Santa Cruz,
+            Ilhéus-BA
           </p>
-          <p className='py-1 italic'>FullStack Developer Jr (Ago 2018 - Jul 2019)</p>
+          <p className='py-1 italic'>
+            FullStack Developer Jr (Ago 2018 - Jul 2019)
+          </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              This project aims to research and build a middleware that is responsible for intermediating sensor requests used by sensors, using concepts already established in the Internet of Things and a dashboard for validating information.
+              This project aims to research and build a middleware that is
+              responsible for intermediating sensor requests used by sensors,
+              using concepts already established in the Internet of Things and a
+              dashboard for validating information.
             </li>
-            <li>
-              Front-end: React, SCSS and Yup.
-            </li>
-            <li>
-              Back-end: Node.js, Express, Typescript and Joi.
-            </li>
-            <li>
-              Tools: Arduino
-            </li>
+            <li>Front-end: React, SCSS and Yup.</li>
+            <li>Back-end: Node.js, Express, Typescript and Joi.</li>
+            <li>Tools: Arduino</li>
           </ul>
         </div>
-
-
 
         {/* Personal Experience */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold italic'>
-              LIF
-            </span>
-            <span className='px-2'>|</span>Universidade Estadual de Santa Cruz, Ilhéus-BA
+            <span className='font-bold italic'>LIF</span>
+            <span className='px-2'>|</span>Universidade Estadual de Santa Cruz,
+            Ilhéus-BA
           </p>
-          <p className='py-1 italic'>FullStack Developer Jr (Ago 2017 - Set 2018)</p>
+          <p className='py-1 italic'>
+            FullStack Developer Jr (Ago 2017 - Set 2018)
+          </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              This project has as main idea to create a back-end service to control the data of the water control system called &quot;IoTÁgua&quot;. This system obtains information from sensors and sends it to the back-end to store it while the front-end consumes the service for dashboard generation            </li>
-            <li>
-              Front: PrimeFaces and JSF.
+              This project has as main idea to create a back-end service to
+              control the data of the water control system called
+              &quot;IoTÁgua&quot;. This system obtains information from sensors
+              and sends it to the back-end to store it while the front-end
+              consumes the service for dashboard generation{' '}
             </li>
-            <li>
-              Back-end: Java, PostgreSQL and MySQL.
-            </li>
-            <li>
-              Tools: Arduino and ESP8266.
-            </li>
+            <li>Front: PrimeFaces and JSF.</li>
+            <li>Back-end: Java, PostgreSQL and MySQL.</li>
+            <li>Tools: Arduino and ESP8266.</li>
           </ul>
         </div>
-
-
 
         {/*  */}
         <h5 className='text-center underline text-[18px] py-4'>
@@ -224,14 +196,17 @@ const resume = () => {
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'>Universidade Estadual de Santa Cruz </span>
+            <span className='font-bold'>
+              Universidade Estadual de Santa Cruz{' '}
+            </span>
             <span className='px-2'>|</span>Ilhéus, BA
           </p>
-          <p className='py-1 italic'>Computer Science  (2016 – 2021)</p>
+          <p className='py-1 italic'>Computer Science (2016 – 2021)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Patterns of development, SQL and NoSQL database, agile methodologies
-              and hard programing challenge with the languages Java, C/C++, Python and Javascript.
+              Patterns of development, SQL and NoSQL database, agile
+              methodologies and hard programing challenge with the languages
+              Java, C/C++, Python and Javascript.
             </li>
           </ul>
         </div>

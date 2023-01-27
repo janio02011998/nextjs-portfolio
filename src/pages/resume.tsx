@@ -107,7 +107,7 @@ const resume = () => {
             <span className='px-2'>|</span>Concórdia, SC
           </p>
           <p className='py-1 italic'>
-            Code Commerce - Youtube Channel (Marc 2021 - Set 2021)
+            Front-end | Mobile (Marc 2021 - Set 2021)
           </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
